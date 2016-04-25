@@ -1,0 +1,9 @@
+打开src目录下的任务一程序代码目录：
+该目录下有两个java工程文件，分别是nlp_tag和NLPLibSVM,直接导入eclipse中就可以运行。
+java工程nlp_tag运行说明：
+1.将该工程文件导入到eclipse中
+2.在类文件ParaseXml中指定读取训练xml文件地址，和输出结果文件地址即可。
+java工程NLPLibSVM运行说明：
+1.将该工程文件导入到eclipse中
+2.首先运行fileRead.java文件，输出SVM模型需要的数据格式文件。需要分别运行两次，第一次运行train训练数据，输出结果到svm_train.txt。第二次运行test测试数据，输出结果到svm_test.txt中。
+3.然后运行LibSVMTest.java文件即可得到训练测试结果。
